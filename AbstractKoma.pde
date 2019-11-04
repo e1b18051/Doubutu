@@ -5,7 +5,6 @@ abstract class AbstractKoma {
   int team;//0 or 1
   KomaStatus kStat;
 
-
   AbstractKoma(String name, int x, int y, int team, boolean active) {
     this.name = name;
     this.x = x;
